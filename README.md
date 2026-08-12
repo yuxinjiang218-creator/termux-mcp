@@ -1,3 +1,5 @@
+
+
 # termux-mcp
 
 一个运行在 Termux 里的 `Streamable HTTP` MCP 服务。安装完成后，直接在 Termux 里执行：
@@ -21,7 +23,7 @@ wget -qO- https://raw.githubusercontent.com/yuxinjiang218-creator/termux-mcp/mai
 
 安装脚本会自动完成这些事情：
 
-- 安装缺失依赖：`git`、`nodejs`、`npm`
+- 安装缺失依赖：`git`、`nodejs`、`npm`、`patch`、`ripgrep`
 - 克隆或更新仓库到 `~/termux-mcp`
 - 执行 `npm install --omit=dev`
 - 安装命令入口到 `~/bin`
